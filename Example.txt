@@ -1,0 +1,35 @@
+float foo(int a, int b){
+	return 1;
+}
+
+int main(){
+	int a=1,b=1,c=1;
+
+	a+=1;
+
+
+	while(a>b && c<a || a==b){
+		for(a = 0; a<5; a++){
+			int z = foo(a,b) + foo(a,c);
+			a = foo(a,b)*foo(a,c);
+			continue;
+		}
+		break;
+	}
+
+	int arr[] = {1,2,3};
+	arr[1] = arr[2] * arr[0];
+
+	if(!(arr[1])){
+		a++;
+	}
+	else{
+		if(a||b){
+			b++;
+		}
+	}
+
+	int q = 1, b1, d1;
+
+	return 1;
+}

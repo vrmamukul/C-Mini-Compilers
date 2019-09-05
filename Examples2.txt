@@ -1,0 +1,25 @@
+float foo(float q);
+
+float foo(float q){
+  return q;
+}
+
+int main(){
+  float a = 1.0;
+  int a1 = foo(a);
+  float t1 = 2*2.5;
+
+   int x = 2; 
+   switch (x) 
+   { 
+       case 1: x++; 
+               break; 
+       case 2: x--; 
+                break; 
+       case 3: x = 99; 
+               break; 
+       default: x+=88; 
+                break;   
+   } 
+   return 0; 
+}

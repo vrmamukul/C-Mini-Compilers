@@ -1,0 +1,14 @@
+func begin foo
+BeginFunc 0
+_f1 = -1
+_f3 = _f1 * z_1_foo
+return _f3
+func end
+func begin main
+BeginFunc 1
+_f1 = 2.7
+x_2_main = _f1
+_t0 = 1
+return _t0
+func end
+end

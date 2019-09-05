@@ -1,0 +1,16 @@
+float foo(float z){
+	return -z;
+}
+
+//int q,w[3][4] ;
+
+int main(){
+//	float a[1];
+
+	float x = 2.7;
+
+//	a[1] = 5;
+//	a[0] = foo(a[1]);
+
+  return 1;
+}

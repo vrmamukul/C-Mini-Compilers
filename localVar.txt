@@ -1,0 +1,6 @@
+z_1_foo
+8
+float
+x_2_main
+4
+float

@@ -1,0 +1,29 @@
+int foo(int a,int b){
+	return a+b;
+}
+
+int main(){
+  
+  	int a=1,b=2,c=3;
+  	a = a && b || c;
+
+  	for(a = 1; a<9; a+=2){
+		for(a = 0; a<5; a++){
+			int z = foo(a,b) + foo(a,c);
+			a = foo(a,b)*foo(a,c);
+			continue;
+		}
+		break;
+	}
+
+	int i=1;
+  	int arr[] = {1,2,3};
+  	for(i=0;i<3;i++){
+  		arr[i] = i;
+  	}
+  	
+  	i=0;
+  	arr[i+2] = 5;
+
+   return 0; 
+}

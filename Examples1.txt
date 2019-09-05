@@ -1,0 +1,40 @@
+float foo(int a, int b){
+	return 1;
+}
+
+int main(){
+	int a =1, b=2;
+	int c;
+
+	c =3;
+	c = b+a;
+	c = 1+b;
+	int aaaa[] = {1,2};
+
+	c = foo(a,b)*foo(a,b);
+
+	if(a&&b || a&&c){
+		a++;
+		if(a==1){
+			c = foo(a,b);
+			c--;
+		}
+		else{
+			c++;
+		}
+	}
+
+	int arr[5][7];
+	arr[1][2] = a;
+
+	while(!(a)){
+		b++;
+	}
+
+	for(a = 1; a<7;a--){
+		int k = 9;
+	}
+
+
+	return 1;
+}

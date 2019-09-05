@@ -1,0 +1,12 @@
+func begin main
+BeginFunc 3
+_t0 = 3
+a_2_main = _t0
+_t1 = 2.5
+c_2_main = _t1
+_t2 = a_2_main+c_2_main
+b_2_main = _t2
+_t3 = 1
+return _t3
+func end
+end
